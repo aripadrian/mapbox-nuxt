@@ -13,8 +13,7 @@ export default {
   mounted() {
     const mapboxgl = require('mapbox-gl/dist/mapbox-gl.js')
 
-    mapboxgl.accessToken =
-      'pk.eyJ1IjoiYXJpcGFkcmlhbiIsImEiOiJja2xoYnF1a24xNmtiMm9xcHdsODAzbmZuIn0.rsPD86w82iXUMRZistT3Ww'
+    mapboxgl.accessToken = 'your-key'
     this.map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v11',
